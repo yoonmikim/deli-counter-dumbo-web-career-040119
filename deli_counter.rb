@@ -3,11 +3,13 @@
 katz_deli = []
 
 def line(arr)
-  puts "The line is currently empty." if arr.length == 0
-  
-  arr.each_with_index(1) { |el, i|
-    puts "The line is currently: #{i}. #{el}"
-  }
+   if arr.length == 0
+     puts "The line is currently empty."
+   else 
+      arr.each_with_index(1) { |el, i|
+        puts "The line is currently: #{i}. #{el}"
+      }
+  end
 end
   
   n = 0
