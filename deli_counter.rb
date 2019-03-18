@@ -12,6 +12,7 @@ end
   
   n = 0
 def take_a_number(arr, str)
+  arr.push(str)
   puts "Welcome, #{str}. You are number #{n} in line."
   n += 1
 end
