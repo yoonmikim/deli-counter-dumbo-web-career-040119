@@ -7,6 +7,10 @@ def line(arr)
      puts "The line is currently empty."
    else 
      ar = []
+     while i < arr.length
+        ar.push(arr[i])
+        i += 1
+     end
       arr.each_with_index(1) { |el, i|
         puts "The line is currently: #{i}. #{el}"
       }
