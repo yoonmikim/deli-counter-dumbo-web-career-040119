@@ -11,7 +11,7 @@ def line(arr)
         ar.push((i+1) + ". " + arr[i])
         i += 1
      end
-        puts "The line is currently: #{i}. #{el}"
+        puts "The line is currently: " + ar
   end
 end
   
