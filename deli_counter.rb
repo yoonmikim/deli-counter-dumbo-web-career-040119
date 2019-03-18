@@ -5,8 +5,9 @@ def line(arr)
      puts "The line is currently empty."
    else 
      ar = []
+     i = 0
      while i < arr.length
-        ar.push((i+1) + ". " + arr[i])
+        ar.push("#{(i+1)}. #{arr[i]}")
         i += 1
      end
         puts "The line is currently: " + ar.join(', ')
