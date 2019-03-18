@@ -20,7 +20,10 @@ def take_a_number(arr, str)
 end
 
 def now_serving(arr)
-  puts "There is nobody waiting to be served!" if (arr.length == 0)
-  puts "Currently serving #{arr.shift}."
+  if (arr.length == 0)
+    puts "There is nobody waiting to be served!" 
+  else
+    puts "Currently serving #{arr.shift}."
+  end
 end
 
